@@ -1,0 +1,163 @@
+:root {
+    --page-width: 1400px;
+    --page-pad: 2rem;
+}
+
+main {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 2rem var(--page-pad);
+}
+
+.nav-container {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 16px var(--page-pad);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    margin-top: 0.75rem;
+}
+
+.about {
+    margin-top: 4rem;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+.about p {
+    margin-top: 12px;
+    line-height: 1.6;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    background-color: #0b1120;
+    z-index: 1000;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+.brand {
+    text-decoration: none;
+    color: #e2e8f0;
+}
+
+.brand:hover {
+    color: #22d3ee;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 24px; */
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e2e8f0;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+    color: #22d3ee;
+}
+
+.skills {
+    margin-top: 4rem;
+}
+
+.skills h2 {
+    font-size: 2rem;
+}
+
+.skill-groups {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill-list li {
+    padding: 8px 14px;
+    border: 1px solid #243244;
+    border-radius: 999px;
+    background-color: #111827;
+}
+
+.projects {
+    margin-top: 4rem;
+}
+
+.contact {
+    margin-top: 4rem;
+}
+
+.contact a {
+    color: #e2e8f0;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #22d3ee;
+}
+
+@media (max-width: 900px) {
+    .skill-groups {
+        gap: 1rem;
+    }
+
+    .skill-groups h3 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .skill-groups {
+        grid-template-columns: repeat(3, minmax(1fr));
+        overflow-x: auto;
+        padding-bottom: 0.75rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 12px 18px;
+    }
+}
