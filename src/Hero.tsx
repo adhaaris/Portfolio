@@ -3,7 +3,7 @@ export default function Hero() {
         <>
             <section id="home" className="hero">
                 <h1>AHMED HAARIS M</h1>
-                <p>Front-End Developer</p>
+                <p>Junior Front-End Developer | React</p>
             </section>
         </>
     )

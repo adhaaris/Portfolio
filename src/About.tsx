@@ -4,10 +4,9 @@ export default function About() {
             <section id="about" className="about">
                 <h2>About Me</h2>
                 <p>
-                    I’m a front-end developer who builds clean, responsive web interfaces with React, JavaScript, HTML5, and CSS. I’m also growing into full-stack work with Java and SQL.
-                </p>
+                    I’m completing full stack development training and building projects with React, TypeScript and Bootstrap. I’m looking for a junior front-end or React role where I can keep learning from experienced developers.</p>
                 <p>
-                    I can help with:
+                    What I work on:
                 </p>
                 <ul>
                     <li>Building responsive websites and landing pages</li>
@@ -15,7 +14,9 @@ export default function About() {
                     <li>Turning designs into clean, working code</li>
                     <li>Fixing UI bugs and improving layouts on mobile and desktop</li>
                 </ul>
-                <p>           I’m early in my career, so I put in extra care on every project. I communicate clearly, ask questions when something is unclear, and deliver on time.</p>
+                <p>       I enjoy debugging, testing features and writing clean, readable code. I learn
+  quickly, ask questions when something is unclear, and I’m available to join
+  immediately.</p>
             </section >
 
         </>
